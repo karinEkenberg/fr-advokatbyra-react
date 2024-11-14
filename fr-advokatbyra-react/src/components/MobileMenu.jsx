@@ -1,5 +1,6 @@
 // MobileMenu.js
 import React from "react";
+import Tjanster from "./Tjanster";
 
 function MobileMenu({ isOpen, onClose }) {
   return (
@@ -10,6 +11,7 @@ function MobileMenu({ isOpen, onClose }) {
         </li>
         <li onClick={onClose}>
           <a href="#tjanster">Tjänster</a>
+          <Tjanster></Tjanster>
         </li>
         <li onClick={onClose}>
           <a href="#medarbetare">Medarbetare</a>

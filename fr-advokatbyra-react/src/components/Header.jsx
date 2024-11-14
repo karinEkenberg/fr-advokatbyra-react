@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import MobileMenu from "./MobileMenu";
+import Tjanster from "./Tjanster";
+import Logo from "./Logo";
 
 function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -21,10 +23,9 @@ function Header() {
 
   return (
     <div>
-      <header className="bg-primary bg-opacity-85 sticky flex h-full mx-auto justify-evenly">
-        <figure>
-          <img className="h-12 pt-2" src="images/fr-logo.webp" alt="favicon" />
-        </figure>
+      <header className="bg-primary bg-opacity-85 sticky flex h-full mx-auto justify-evenly top-0 z-20 w-full">
+
+      <Logo></Logo>
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           className="text-white md:hidden focus:outline-none"
