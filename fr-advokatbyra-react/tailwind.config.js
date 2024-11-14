@@ -9,6 +9,9 @@ export default {
         background2: "F5F5F5",
         links: "#F28E2B",
       },
+      fontFamily: {
+        sans: ["Roboto", "sans-serif"],
+      },
     },
   },
   plugins: [],
