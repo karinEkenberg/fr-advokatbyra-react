@@ -24,7 +24,7 @@ function Header() {
 
   return (
     <div>
-      <header className="bg-primary bg-opacity-85 sticky top-0 flex h-16 mx-auto justify-evenly items-center z-20 w-full">
+      <header className="bg-primary bg-opacity-85 sticky top-0 flex h-16 mx-auto justify-evenly items-center z-[20] w-full">
         <Logo></Logo>
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
