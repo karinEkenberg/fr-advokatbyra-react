@@ -11,6 +11,7 @@ export default {
       },
       fontFamily: {
         sans: ["Roboto", "sans-serif"],
+        slab: ["Roboto slab", "sans-serif"]
       },
     },
   },
