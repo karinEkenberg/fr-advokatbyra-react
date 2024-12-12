@@ -9,14 +9,14 @@ import FooterCopyright from "./FooterCopyright";
 const Footer = () => {
   return (
     <footer className="flex flex-col bg-primary text-white">
-      <div className="flex flex-row justify-between w-[80%] mx-auto py-5">
-       <FooterCompanyInfo></FooterCompanyInfo>
-       <FooterSidor></FooterSidor>
-       <FooterOmOss></FooterOmOss>
-       <FooterKontakt></FooterKontakt>
-      <FooterSocialaMedier></FooterSocialaMedier>
+      <div className="flex flex-col md:flex-row justify-between w-[80%] md:w-[90%] mx-auto py-5 md:py-20">
+        <FooterCompanyInfo></FooterCompanyInfo>
+        <FooterSidor></FooterSidor>
+        <FooterOmOss></FooterOmOss>
+        <FooterKontakt></FooterKontakt>
+        <FooterSocialaMedier></FooterSocialaMedier>
       </div>
-    <FooterCopyright></FooterCopyright>
+      <FooterCopyright></FooterCopyright>
     </footer>
   );
 };
